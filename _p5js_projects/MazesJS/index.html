@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="chroma.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">    
+  </head>
+  <body>
+    <div class="maze-gui-container">
+      <select id="ddlMazes" class="form-control">
+        <option value="binary-tree">Binary Tree</option>      
+        <option value="aldous-broder" selected="">Aldous-Broder</option>
+        <option value="wilsons">Wilsons</option>
+        <option value="hunt-and-kill">Hunt and Kill</option>
+        <option value="recursive-backtracker">Recursive Backtracker</option>
+      </select>
+      <select id="ddlCellSize" class="form-control">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25" selected="">25</option>
+        <option value="50">50</option>
+        <option value="75">75</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+      </select>
+      <button id="btnGenerate" type="button">Generate</button>
+      <button id="btnAnimate" type="button">Animate</button>
+      <input id="chkFollowMouse" type="checkbox" style="margin-bottom: 10px:">
+      <label>Follow Mouse</label>
+      <br>
+      <button id="btnMaze" type="button">Maze</button>
+      <button id="btnDistanceMatrix" type="button">Distance Matrix</button>
+      <button id="btnToggleLines" type="button">Toggle Lines</button>
+    </div>
+    
+    <script src="gui.js"></script>
+    <script src="pathfinding.js"></script>
+    <script src="mazes.js"></script>
+    <script src="grid.js"></script>
+    <script src="sketch.js"></script>
+  
+
+</body></html>

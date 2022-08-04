@@ -1,0 +1,66 @@
+<div class="controls">
+	<div class="row">
+		<div class="col-md-12">
+			<button class="btn btn-info" (click)="pause()">{{isPause ? 'Resume' : 'Pause'}}</button>
+			<button class="btn btn-info" (click)="reset()">Reset</button>
+			<!-- <button class="btn btn-info" (click)="next()">Next</button>
+			<button class="btn btn-info" (click)="previous()">Previous</button> -->
+		</div>
+	</div>
+  <br/>
+	<div class="row">
+		<div class="col-md-3">
+			Circle Radius
+		</div>
+		<div class="col-md-1">
+			{{radius}}
+		</div>
+		<div class="col-md-8">
+			<div class="slidecontainer">
+				<input type="range" min="50" max="500" [(ngModel)]="radius" class="slider"/>
+      </div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				Circle Points
+			</div>
+			<div class="col-md-1">
+				{{pointsPerCircle}}
+			</div>
+			<div class="col-md-8">
+				<div class="slidecontainer">
+					<input type="range" min="10" max="500" [(ngModel)]="pointsPerCircle" class="slider"/>
+      </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					Times Table
+				</div>
+				<div class="col-md-1">
+					{{timesTable}}
+				</div>
+				<div class="col-md-8">
+					<div class="slidecontainer">
+						<input type="range" min="0" max="100" [(ngModel)]="timesTable" class="slider"/>
+      </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						Speed
+					</div>
+					<div class="col-md-1">
+						{{speedScale}}
+					</div>
+					<div class="col-md-8">
+						<div class="slidecontainer">
+							<input type="range" min="7" max="50" [(ngModel)]="speedScale" class="slider"/>
+            </div>
+						</div>
+					</div>
+
+				</div>
+				<br /><br />
+				<canvas #canvas width="{{width}}" height="{{height}}"></canvas>

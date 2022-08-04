@@ -1,0 +1,20 @@
+canvas {  
+  background-color: #313233;
+  /* border: 1px solid #549c93; */
+}
+
+button {
+  margin-right: 25px;
+}
+
+.controls {
+  width: 60%;
+}
+
+.btn-info {
+  background-color: #549c93;
+  border: 1px solid #549c93;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 3px 30px;
+}

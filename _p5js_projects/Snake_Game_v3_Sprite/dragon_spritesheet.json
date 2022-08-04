@@ -1,0 +1,124 @@
+{
+    "frames": [
+        {
+            "name": "dragon-down-00",
+            "position":
+            {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-down-01",
+            "position":
+            {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-down-02",
+            "position":
+            {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-left-00",
+            "position":
+            {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-left-01",
+            "position":
+            {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-left-02",
+            "position":
+            {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-right-00",
+            "position":
+            {
+                "x": 0,
+                "y": 192,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-right-01",
+            "position":
+            {
+                "x": 144,
+                "y": 192,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-right-02",
+            "position":
+            {
+                "x": 288,
+                "y": 192,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-up-00",
+            "position":
+            {
+                "x": 0,
+                "y": 288,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-up-01",
+            "position":
+            {
+                "x": 144,
+                "y": 288,
+                "w": 144,
+                "h": 96
+            }
+        },
+        {
+            "name": "dragon-up-02",
+            "position":
+            {
+                "x": 288,
+                "y": 288,
+                "w": 144,
+                "h": 96
+            }
+        }
+    ]
+}

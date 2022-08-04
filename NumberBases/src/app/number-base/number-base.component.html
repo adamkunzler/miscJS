@@ -1,0 +1,106 @@
+<div class="number-base-container container">
+  <br />
+  <h3>Number Bases</h3>
+  <br />
+  <div class="row">
+    <h5>Decimal</h5>
+    <br />
+    <div class="col-md">
+      <input
+        class="form-control"
+        type="number"
+        min="0"
+        max="255"
+        (keydown)="decimalChannelsChanged()"
+        (keyup)="decimalChannelsChanged()"
+        [(ngModel)]="model.dec1"
+      />
+    </div>
+    <div class="col-md">
+      <input
+        class="form-control"
+        type="number"
+        min="0"
+        max="255"
+        (keydown)="decimalChannelsChanged()"
+        (keyup)="decimalChannelsChanged()"
+        [(ngModel)]="model.dec2"
+      />
+    </div>
+    <div class="col-md">
+      <input
+        class="form-control"
+        type="number"
+        min="0"
+        max="255"
+        (keydown)="decimalChannelsChanged()"
+        (keyup)="decimalChannelsChanged()"
+        [(ngModel)]="model.dec3"
+      />
+    </div>
+    <div class="col-md">
+      <input
+        class="form-control"
+        type="number"
+        min="0"
+        max="255"
+        (keydown)="decimalChannelsChanged()"
+        (keyup)="decimalChannelsChanged()"
+        [(ngModel)]="model.dec4"
+      />
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md">
+      <input
+        class="form-control"
+        type="number"
+        min="0"
+        max="4294967295"
+        (keydown)="decimalChanged()"
+        (keyup)="decimalChanged()"
+        [(ngModel)]="model.decimal"
+      />
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md">
+      <h5>Hex</h5>
+      <br />
+      <input
+        class="form-control"
+        type="text"
+        [(ngModel)]="model.hex"
+        readonly
+      />
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md">
+      <h5>Binary</h5>
+      <br />
+      <input
+        class="form-control"
+        type="text"
+        [(ngModel)]="model.binary"
+        readonly
+      />
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md">
+      <h5>Base 36</h5>
+      <br />
+      <input
+        class="form-control"
+        type="text"
+        [(ngModel)]="model.base32"
+        readonly
+      />
+    </div>
+  </div>
+</div>

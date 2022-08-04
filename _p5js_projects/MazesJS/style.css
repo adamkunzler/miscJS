@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+}
+canvas {
+  display: block;
+}
+
+.maze-gui-container select, 
+.maze-gui-container button,
+.maze-gui-container input,
+.maze-gui-container label {
+  margin-bottom: 10px;
+}
+
+.maze-gui-container label {
+  color: white;
+}
